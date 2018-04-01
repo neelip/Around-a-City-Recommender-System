@@ -1,0 +1,6 @@
+function [U, S, V] = SVD(P)
+[U, S, V] = svd(P)
+end
+function main = test
+SVD(zeros(3,5))
+end
